@@ -5,8 +5,8 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.example.tianyuan.test"
-        minSdkVersion 15
+        applicationId "com.rushucloud.reim"
+        minSdkVersion 14
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -22,4 +22,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.1.1'
+    compile files('libs/avoscloud-v2.6.6.jar') // LeanCloud
+    compile files('libs/avospush-v2.6.6.jar') // LeanCloud Push
+    compile files('libs/pinyin4j-2.5.0.jar') // Pinyin
+
 }
