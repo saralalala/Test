@@ -1,6 +1,6 @@
 package classes.widget;
 
-import android.content.Context;
+ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
